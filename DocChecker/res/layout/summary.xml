@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/cover" android:orientation="vertical">
+    <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayoutSummary1" android:layout_width="match_parent" android:stretchColumns="*">
+       	<TableRow android:id="@+id/tableRowSummary1" android:layout_height="wrap_content" android:layout_width="match_parent">
+           <TextView android:text="@string/photoTitle" android:id="@+id/textViewPhotoTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+        </TableRow>    
+        <TableRow android:id="@+id/tableRowSummary1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:baselineAligned="false">
+            <ImageButton android:layout_height="wrap_content" android:id="@+id/imageButtonPortrait" android:layout_width="wrap_content" android:layout_marginBottom="@dimen/bioDataSpacer" android:adjustViewBounds="true" android:background="@color/cover" android:padding="1mm"></ImageButton>
+        </TableRow>
+    </TableLayout>
+    <ScrollView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scrollViewSummary1">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayoutSummary2" android:layout_height="match_parent" android:orientation="vertical">
+            <TextView android:text="@string/name" android:id="@+id/textViewNameTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+            <TextView android:text="" android:id="@+id/textViewName" android:lineSpacingExtra="@dimen/bioDataSpacer" android:textSize="@dimen/bioDataInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+            <TextView android:text="@string/dob" android:id="@+id/textViewDobTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+            <TextView android:text="" android:id="@+id/textViewDob" android:lineSpacingExtra="@dimen/bioDataSpacer" android:textSize="@dimen/bioDataInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+            <TextView android:text="@string/doe" android:id="@+id/textViewDoeTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+            <TextView android:text="" android:id="@+id/textViewDoe" android:lineSpacingExtra="@dimen/bioDataSpacer" android:textSize="@dimen/bioDataInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+            <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+                <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="match_parent">
+                    <TextView android:text="@string/doc" android:id="@+id/textViewDocTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>	
+                	<TextView android:text="@string/gender" android:id="@+id/textViewGenderTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+                </TableRow>
+                <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            		<TextView android:text="5551234" android:id="@+id/textViewDoc" android:lineSpacingExtra="@dimen/bioDataSpacer" android:textSize="@dimen/bioDataInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>                    
+                    <TextView android:text="-" android:id="@+id/textViewGender" android:lineSpacingExtra="@dimen/bioDataSpacer" android:textSize="@dimen/bioDataInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold"></TextView>
+                </TableRow>
+            </TableLayout>
+ 		</LinearLayout>
+    </ScrollView>
+</LinearLayout>

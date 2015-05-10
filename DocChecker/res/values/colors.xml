@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="cover">#5E0D1E</color>
+	<color name="gold">#DFBC78</color>
+	<color name="red">#F00</color>
+	<color name="green">#0F0</color>
+	<color name="orange">#FF4000</color>
+	<color name="background">#7c3c47</color>
+</resources>

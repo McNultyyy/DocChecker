@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="djwPassport"></string>
+    <string name="name">Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="doe">Date of Expiry</string>
+    <string name="gender">Gender</string>
+    <string name="doc">Passport Number</string>
+    <string name="docSet">Enter Passport Number</string>
+    <string name="read">Read Passport</string>
+    <string name="buttonDob">Set Date of Birth </string>
+    <string name="buttonDoe">Set Date of Expiry</string>
+    <string name="noDate">No Date Set</string>
+    <string name="photoTitle">Portrait</string>
+    <string name="warning"> This application is provided by the Identity and Passport Service for the sole purpose of reading the data stored on the chip of a UK ePassport.  It cannot be used to determine if a passport is genuine or valid. It is provided free of charge and without warranty. </string>
+    <string name="noShow">Do not show this again</string>
+    <string name="menuItemHelp">Help</string>
+    <string name="app_name">UK Passport Reader</string>   
+    <string name="version">Version 0.57 beta</string>
+    <string name="help">Enter the passport number, date of birth and date of expiry printed inside the passport.  This information is used to unlock the chip.  Then close the passport and place the phone centrally on top of the passport.  Don\'t move it.  After about 10 seconds the phone will display the data stored on the chip.</string>
+</resources>

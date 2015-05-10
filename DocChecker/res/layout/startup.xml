@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@color/cover" android:orientation="vertical">
+    <ScrollView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scrollViewStartUp1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/linearLayoutStartUp1" android:layout_height="match_parent">
+            <TextView android:text="@string/docSet" android:id="@+id/textViewDocTitleSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold" android:layout_marginTop="@dimen/bioDataSpacer"></TextView>
+            <EditText android:id="@+id/editTextDoc" android:text="@string/djwPassport" android:textSize="@dimen/bioDataInfo" android:layout_height="wrap_content" android:textColor="@color/gold" android:lines="1" android:maxLength="10" android:layout_width="match_parent" android:inputType="number" android:background="@color/background"></EditText>
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayoutStartUp2" android:layout_height="wrap_content" android:orientation="horizontal">
+                <Button android:text="@string/buttonDob" android:id="@+id/buttonDob" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="@dimen/setButtonWidth"></Button>
+                <TextView android:id="@+id/textViewDobSet" android:text="@string/noDate" android:textSize="@dimen/bioDataInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold" android:layout_gravity="center_vertical" android:layout_marginLeft="@dimen/bioDataSpacer"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayoutStartUp3" android:layout_height="wrap_content" android:orientation="horizontal">
+                <Button android:text="@string/buttonDoe" android:id="@+id/buttonDoe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="@dimen/setButtonWidth"></Button>
+                <TextView android:id="@+id/textViewDoeSet" android:text="@string/noDate" android:textSize="@dimen/bioDataInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/gold" android:layout_gravity="center_vertical" android:layout_marginLeft="@dimen/bioDataSpacer"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

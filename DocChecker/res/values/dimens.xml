@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="bioDataInfo">12pt</dimen>
+	<dimen name="bioDataTitle">6pt</dimen>
+	<dimen name="bioDataSpacer">6pt</dimen>
+	<dimen name="portraitHeight">18mm</dimen>
+	<dimen name="portraitWidth">14mm</dimen>
+	<dimen name="setButtonWidth">18mm</dimen>
+</resources>
